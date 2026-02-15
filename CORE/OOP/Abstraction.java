@@ -15,10 +15,12 @@ public class Abstraction extends Mobile{
     public static void main(String[] args) {
         // Mobile m = new Mobile();  --cant create obj of abstract class
         Mobile m1; //but we can create reference variable of abstract class
+        m1= new Abstraction();
 
         Mobile m = new Abstraction(); //upcasting
 
         //runtime polymorphism
         m.phone();
+        m1.phone();
     }
 }
