@@ -3,7 +3,7 @@ class Vehicle{
         System.out.println("Capacity is ");
     }
 }
-class Bike extends Vehicle{
+class Bike extends Vehicle{     //Java golden rule
     @Override
     public void capacity(){
         System.out.println("Capacity is " + 2);
@@ -17,7 +17,7 @@ class Car extends Vehicle{
 }
 public class Polymorphism {
     public static void main(String[] args) {
-        Vehicle v = new Bike();
+        Vehicle v = new Bike();     //upcasting
         v.capacity();
     }
     
