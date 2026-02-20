@@ -1,13 +1,15 @@
 interface A {
-    void m1();
+    void m1();  //public and abstract by default
 }
+
+//static and default methods are not allowed in interface before java 8
 interface B extends A{
-    public static void m2(){
+    public static void m2(){    //static method in interface
         System.out.println("Static method in Interface");
     }
 }
 interface C{
-    public default void m3(){
+    public default void m3(){    //default(Non Static) method in interface
         System.out.println("Default method in interface");
     }
 }
