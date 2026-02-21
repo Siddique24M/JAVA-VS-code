@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="CORE/ARRAYS"/>
 	<classpathentry kind="src" path="CORE/OOP"/>
 	<classpathentry kind="src" path="CORE/Patterns"/>
+	<classpathentry kind="src" path="CORE/Strings"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
