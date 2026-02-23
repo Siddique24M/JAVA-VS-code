@@ -5,7 +5,7 @@ public class Strings1 {
 
 
         //charAt(index)
-        System.out.println(sb.charAt(2));
+        System.out.println(sb.charAt(2));//n
 
         //setCharAt(index, char)
         sb.setCharAt(0, 'p');  //pony
