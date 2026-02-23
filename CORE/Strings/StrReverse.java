@@ -31,7 +31,14 @@ public class StrReverse {
         return sb.toString();
    }
    public static String Arr1(){
-    char[] arr = {'S', 'I', 'D'};
-    return arr.toString();
+    String[] arr = {"Sid", "Shrutika"};
+    // return new String(arr[1]);     return String Array value
+    char[] ch = arr[0].toCharArray();   //converting string array to char array
+    for(int i=0; i<ch.length; i++)
+    {
+        System.out.print(ch[i] + " ");
+    }
+    System.out.println();
+    return new String(ch);      //returns char array value
    }
 }
