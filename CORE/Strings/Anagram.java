@@ -14,6 +14,6 @@ public class Anagram {
         Arrays.sort(a);
         Arrays.sort(b);
         
-        return Arrays.equals(a,b);
+        return Arrays.equals(a,b);   //it checks for the content of the array and not the reference
     }
 }

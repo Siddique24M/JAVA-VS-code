@@ -31,9 +31,9 @@ public class StrReverse {
         return sb.toString();
    }
    public static String Arr1(){
-    String[] arr = {"Sid", "Shrutika"};
+    String[] arr = {"Sid", "Umar"};
     // return new String(arr[1]);     return String Array value
-    char[] ch = arr[0].toCharArray();   //converting string array to char array
+    char[] ch = arr[1].toCharArray();   //converting string array to char array
     for(int i=0; i<ch.length; i++)
     {
         System.out.print(ch[i] + " ");
