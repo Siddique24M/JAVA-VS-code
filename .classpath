@@ -5,5 +5,6 @@
 	<classpathentry kind="src" path="CORE/OOP"/>
 	<classpathentry kind="src" path="CORE/Patterns"/>
 	<classpathentry kind="src" path="CORE/Strings"/>
+	<classpathentry kind="src" path="CORE/Challenges"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

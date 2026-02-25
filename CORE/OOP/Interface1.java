@@ -18,7 +18,7 @@ class D{
         System.out.println("class method");
     }
 }
-public class Interface1 extends D implements A,B,C {
+public class Interface1 extends D implements B,C {
     @Override
     public void m1() {
         System.out.println("A interface");
