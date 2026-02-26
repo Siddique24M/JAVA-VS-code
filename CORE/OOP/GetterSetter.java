@@ -15,16 +15,16 @@ class Car {
 
 class Tyre {
 	private String Brand;
-	public String getBrand() {
+	public String getBrand() {		//getter
 		return Brand;
 	}
-	public void setBrand(String Brand) {
+	public void setBrand(String Brand) {		//setter
 		this.Brand=Brand;
 	}
-	Tyre(){
+	Tyre(){		//zero argument contructor
 		
 	}
-	Tyre(String Brand){
+	Tyre(String Brand){		//public method
 		setBrand(Brand);
 	}
 }
