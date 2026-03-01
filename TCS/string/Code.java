@@ -1,11 +1,10 @@
 import java.util.HashSet;
-import java.util.Scanner;
 import java.util.Set;
 
 public class Code {
     public static void main(String[] args) {
-        String a = "de";
-        String b = "cd";
+        String a = "ababb";
+        String b = "abaaa";
         int n = a.length();
         // If strings are equal
         if (a.equals(b)) {
