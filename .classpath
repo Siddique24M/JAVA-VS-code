@@ -8,5 +8,6 @@
 	<classpathentry kind="src" path="CORE/Challenges"/>
 	<classpathentry kind="src" path="TCS/string"/>
 	<classpathentry kind="src" path="TCS/array"/>
+	<classpathentry kind="src" path="TCS/maths"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
