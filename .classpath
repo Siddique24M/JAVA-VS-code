@@ -9,5 +9,6 @@
 	<classpathentry kind="src" path="TCS/string"/>
 	<classpathentry kind="src" path="TCS/array"/>
 	<classpathentry kind="src" path="TCS/maths"/>
+	<classpathentry kind="src" path="Collections/ArrayList"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
