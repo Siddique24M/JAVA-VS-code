@@ -24,8 +24,10 @@ public class Iteratorclass {
             System.out.println("foreach element is "+ i);  //traverse based on the elements not index
         }
 
+        System.out.println("type 3");
         //type-3 Iterator - for collections only
         Iterator<Integer> it = list.iterator();
+        System.out.println(it.next());
         while (it.hasNext()) {
             System.out.println("iterator " + it.next());
         }
