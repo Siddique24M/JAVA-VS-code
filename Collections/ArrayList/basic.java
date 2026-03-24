@@ -2,11 +2,11 @@ import java.util.ArrayList;
 
 public class basic {
     public static void main(String[] args) {
-        ArrayList a = new ArrayList<>();
+        ArrayList<Integer> a = new ArrayList<>();
         a.add(30);
         a.add(40);
 
-        ArrayList b = new ArrayList<>();
+        ArrayList<Integer> b = new ArrayList<>();
         a.add(10);
         a.add(20);
         b.addAll(a);
