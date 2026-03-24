@@ -10,5 +10,6 @@
 	<classpathentry kind="src" path="TCS/array"/>
 	<classpathentry kind="src" path="TCS/maths"/>
 	<classpathentry kind="src" path="Collections/ArrayList"/>
+	<classpathentry kind="src" path="TCS/2026Questions"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
