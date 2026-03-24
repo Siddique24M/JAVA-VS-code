@@ -15,7 +15,7 @@ public class TransactionMonitor {
             int amount = sc.nextInt(); 
 
             //rule 1- duplicate check
-            String key = sender + "-" + reciever;
+            String key = sender + "-" + reciever + "-" + amount;
             if(seen.contains(key)){
                 System.out.println("Error: Duplicate Transaction");
                 return;
@@ -28,6 +28,7 @@ public class TransactionMonitor {
                 return;
             }
             prevTime = timestamp;
+            sc.close();
         }
         System.out.println("All transaction valid");
     }
